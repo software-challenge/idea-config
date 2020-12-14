@@ -1,5 +1,6 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
+    <option name="SOFT_MARGINS" value="80,120" />
     <JavaCodeStyleSettings>
       <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
       <option name="JD_ADD_BLANK_AFTER_RETURN" value="true" />
@@ -12,17 +13,11 @@
           <package name="java.util" alias="false" withSubpackages="false" />
         </value>
       </option>
-      <option name="PACKAGES_IMPORT_LAYOUT">
-        <value>
-          <package name="" alias="false" withSubpackages="true" />
-          <package name="java" alias="false" withSubpackages="true" />
-          <package name="javax" alias="false" withSubpackages="true" />
-          <package name="kotlin" alias="false" withSubpackages="true" />
-          <package name="" alias="true" withSubpackages="true" />
-        </value>
-      </option>
       <option name="SPACE_BEFORE_EXTEND_COLON" value="false" />
     </JetCodeStyleSettings>
+    <codeStyleSettings language="Groovy">
+      <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+    </codeStyleSettings>
     <codeStyleSettings language="JAVA">
       <option name="SPACE_BEFORE_SYNCHRONIZED_PARENTHESES" value="false" />
       <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
@@ -36,7 +31,9 @@
       </indentOptions>
     </codeStyleSettings>
     <codeStyleSettings language="kotlin">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
       <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+      <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
       <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true" />
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="4" />
