@@ -14,6 +14,8 @@
         </value>
       </option>
       <option name="SPACE_BEFORE_EXTEND_COLON" value="false" />
+      <option name="ALLOW_TRAILING_COMMA" value="true" />
+      <option name="BLANK_LINES_BEFORE_DECLARATION_WITH_COMMENT_OR_ANNOTATION_ON_SEPARATE_LINE" value="0" />
     </JetCodeStyleSettings>
     <codeStyleSettings language="Groovy">
       <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
@@ -32,11 +34,13 @@
     </codeStyleSettings>
     <codeStyleSettings language="kotlin">
       <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+      <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
       <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
       <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
       <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true" />
       <indentOptions>
-        <option name="CONTINUATION_INDENT_SIZE" value="4" />
         <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
       </indentOptions>
     </codeStyleSettings>
