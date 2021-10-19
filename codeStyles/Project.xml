@@ -14,6 +14,7 @@
       <option name="PACKAGES_TO_USE_STAR_IMPORTS">
         <value>
           <package name="tornadofx" alias="false" withSubpackages="false" />
+          <package name="sc.gui.events" alias="false" withSubpackages="true" />
           <package name="io.kotest.matchers" alias="false" withSubpackages="true" />
         </value>
       </option>
